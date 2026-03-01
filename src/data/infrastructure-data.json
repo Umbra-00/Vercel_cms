@@ -1,0 +1,72 @@
+[
+  {
+    "id": "stage-1",
+    "type": "farm",
+    "title": "Farm Origins",
+    "location": "Punjab",
+    "description": "Premium commodity sourcing from India's breadbasket regions",
+    "coordinates": { "x": 15, "y": 35 },
+    "stats": [
+      { "label": "Active Farms", "value": "2,400+" },
+      { "label": "Annual Procurement", "value": "45K MT" }
+    ]
+  },
+  {
+    "id": "stage-2",
+    "type": "mandi",
+    "title": "Mandi Network",
+    "location": "Nagpur, MH",
+    "description": "Strategic aggregation hubs across 160+ locations",
+    "coordinates": { "x": 35, "y": 45 },
+    "stats": [
+      { "label": "Pan-India Mandis", "value": "160+" },
+      { "label": "Daily Throughput", "value": "2,800 MT" },
+      { "label": "Quality Checks", "value": "100%" }
+    ],
+    "commodities": ["Sugar M-30", "Wheat", "Rice", "Soybean"]
+  },
+  {
+    "id": "stage-3",
+    "type": "warehouse",
+    "title": "Warehouse Infrastructure",
+    "location": "Maharashtra",
+    "description": "Climate-controlled storage with real-time inventory management",
+    "coordinates": { "x": 55, "y": 40 },
+    "stats": [
+      { "label": "Active Warehouses", "value": "42" },
+      { "label": "Total Capacity", "value": "125K MT" },
+      { "label": "Climate Control", "value": "100%" }
+    ],
+    "facilities": [
+      {
+        "name": "Nagpur Central Warehouse",
+        "capacity": "8,500 MT",
+        "specialization": "Sugar & Rice"
+      },
+      {
+        "name": "Mumbai Port Facility",
+        "capacity": "12,000 MT",
+        "specialization": "Export Operations"
+      },
+      {
+        "name": "Delhi NCR Hub",
+        "capacity": "6,200 MT",
+        "specialization": "Wheat & Grains"
+      }
+    ]
+  },
+  {
+    "id": "stage-4",
+    "type": "distribution",
+    "title": "National Distribution",
+    "location": "Pan-India",
+    "description": "End-to-end logistics with real-time tracking and compliance",
+    "coordinates": { "x": 75, "y": 50 },
+    "stats": [
+      { "label": "Monthly Throughput", "value": "85K MT" },
+      { "label": "Distribution Partners", "value": "320+" },
+      { "label": "On-Time Delivery", "value": "98.4%" }
+    ],
+    "coverage": ["North India", "Western Region", "Central Zone", "Eastern Markets"]
+  }
+]

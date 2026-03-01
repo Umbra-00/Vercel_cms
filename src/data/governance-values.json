@@ -1,0 +1,79 @@
+{
+    "coreValues": [
+        {
+            "id": "integrity",
+            "word": "INTEGRITY",
+            "description": "Unwavering commitment to transparency in commodity pricing, quality verification, and ethical procurement practices across all market operations."
+        },
+        {
+            "id": "security",
+            "word": "NATIONAL SECURITY",
+            "description": "Safeguarding India's food supply chain through strategic commodity reserves, crisis-responsive distribution networks, and government-coordinated procurement."
+        },
+        {
+            "id": "stability",
+            "word": "STABILITY",
+            "description": "Creating predictable market conditions for farmers and buyers through consistent quality standards, reliable logistics, and long-term partnerships."
+        },
+        {
+            "id": "transparency",
+            "word": "TRANSPARENCY",
+            "description": "Real-time traceability from farm to warehouse, with complete documentation, blockchain-verified transactions, and open regulatory compliance."
+        }
+    ],
+    "timeline": [
+        {
+            "year": "1972",
+            "title": "National Corporation Established",
+            "description": "Founded as a government-backed enterprise to stabilize agricultural commodity markets and support farmer welfare programs."
+        },
+        {
+            "year": "1985",
+            "title": "Multi-State Expansion",
+            "description": "Extended operations to 12 states, establishing the first integrated mandi network for transparent price discovery."
+        },
+        {
+            "year": "1998",
+            "title": "ISO 9001 Certification",
+            "description": "Achieved international quality management certification, setting new benchmarks for commodity handling standards."
+        },
+        {
+            "year": "2008",
+            "title": "Digital Infrastructure Launch",
+            "description": "Deployed real-time inventory management systems across all warehouses, enabling transparent stock visibility."
+        },
+        {
+            "year": "2015",
+            "title": "Climate-Controlled Storage Network",
+            "description": "Commissioned 25 advanced warehouses with humidity and temperature regulation for premium commodity preservation."
+        },
+        {
+            "year": "2020",
+            "title": "Blockchain Traceability Pilot",
+            "description": "Implemented distributed ledger technology for end-to-end commodity tracking and tamper-proof documentation."
+        },
+        {
+            "year": "2024",
+            "title": "Pan-India Coverage Achieved",
+            "description": "Reached 160+ mandis and 42 warehouses, serving as the national benchmark for commodity logistics excellence."
+        }
+    ],
+    "governancePrinciples": [
+        {
+            "title": "Regulatory Compliance",
+            "description": "Full adherence to FSSAI, BIS, and APMC regulations with quarterly external audits and continuous compliance monitoring."
+        },
+        {
+            "title": "Stakeholder Accountability",
+            "description": "Published annual transparency reports detailing procurement volumes, pricing mechanisms, and farmer payment timelines."
+        },
+        {
+            "title": "Operational Transparency",
+            "description": "Open access to quality test reports, warehouse inventory levels, and logistics tracking for all registered buyers."
+        },
+        {
+            "title": "Crisis Response Mandate",
+            "description": "Government-coordinated buffer stock management for national food security during market disruptions or natural disasters."
+        }
+    ]
+}

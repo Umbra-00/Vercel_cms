@@ -1,0 +1,346 @@
+[
+    {
+        "productId": "sugar-m30",
+        "imagePath": "/images/commodities/sugar-m30-macro.jpg",
+        "categories": [
+            {
+                "name": "Physical Specifications",
+                "specs": [
+                    {
+                        "label": "Moisture Content",
+                        "value": "< 0.04%",
+                        "benchmark": "IS 1162:2020"
+                    },
+                    {
+                        "label": "Polarization",
+                        "value": "99.80%",
+                        "benchmark": "Min 99.70%"
+                    },
+                    {
+                        "label": "Ash Content",
+                        "value": "0.04%",
+                        "benchmark": "Max 0.10%"
+                    },
+                    {
+                        "label": "Grain Size",
+                        "value": "Medium",
+                        "benchmark": "0.5-0.8mm"
+                    },
+                    {
+                        "label": "Color",
+                        "value": "Crystal White",
+                        "benchmark": "IU < 45"
+                    }
+                ]
+            },
+            {
+                "name": "Chemical Analysis",
+                "specs": [
+                    {
+                        "label": "Sulphur Dioxide",
+                        "value": "< 20 ppm",
+                        "benchmark": "Max 70 ppm"
+                    },
+                    {
+                        "label": "Reducing Sugars",
+                        "value": "< 0.05%",
+                        "benchmark": "Max 0.10%"
+                    },
+                    {
+                        "label": "Conductivity Ash",
+                        "value": "< 0.03%",
+                        "benchmark": "Max 0.08%"
+                    },
+                    {
+                        "label": "pH Level",
+                        "value": "6.8-7.2",
+                        "benchmark": "6.5-7.5"
+                    }
+                ]
+            },
+            {
+                "name": "Quality Certifications",
+                "specs": [
+                    {
+                        "label": "FSSAI License",
+                        "value": "10023456789012",
+                        "benchmark": "Active"
+                    },
+                    {
+                        "label": "ISO 22000",
+                        "value": "Certified 2024",
+                        "benchmark": "Food Safety"
+                    },
+                    {
+                        "label": "BIS Certification",
+                        "value": "IS 1162:2020",
+                        "benchmark": "Compliant"
+                    },
+                    {
+                        "label": "Lab Test Batch",
+                        "value": "SG-2024-Q4-1247",
+                        "benchmark": "Nov 2024"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "productId": "parimal-rice",
+        "imagePath": "/images/commodities/parimal-rice-macro.jpg",
+        "categories": [
+            {
+                "name": "Physical Specifications",
+                "specs": [
+                    {
+                        "label": "Moisture Content",
+                        "value": "12.0%",
+                        "benchmark": "Max 14%"
+                    },
+                    {
+                        "label": "Broken Grains",
+                        "value": "< 2%",
+                        "benchmark": "Max 5%"
+                    },
+                    {
+                        "label": "Purity",
+                        "value": "98%",
+                        "benchmark": "Min 95%"
+                    },
+                    {
+                        "label": "Average Length",
+                        "value": "6.8mm",
+                        "benchmark": "6.0-7.0mm"
+                    },
+                    {
+                        "label": "Crop Year",
+                        "value": "2024",
+                        "benchmark": "Fresh"
+                    }
+                ]
+            },
+            {
+                "name": "Chemical Analysis",
+                "specs": [
+                    {
+                        "label": "Amylose Content",
+                        "value": "22%",
+                        "benchmark": "20-25%"
+                    },
+                    {
+                        "label": "Protein",
+                        "value": "7.2%",
+                        "benchmark": "6.5-8%"
+                    },
+                    {
+                        "label": "Foreign Matter",
+                        "value": "< 0.5%",
+                        "benchmark": "Max 1%"
+                    },
+                    {
+                        "label": "Chalky Kernels",
+                        "value": "< 3%",
+                        "benchmark": "Max 6%"
+                    }
+                ]
+            },
+            {
+                "name": "Quality Certifications",
+                "specs": [
+                    {
+                        "label": "FSSAI License",
+                        "value": "10023456789013",
+                        "benchmark": "Active"
+                    },
+                    {
+                        "label": "Sortex Processing",
+                        "value": "Triple Pass",
+                        "benchmark": "Premium"
+                    },
+                    {
+                        "label": "Aging Period",
+                        "value": "12 Months",
+                        "benchmark": "Verified"
+                    },
+                    {
+                        "label": "Lab Test Batch",
+                        "value": "PR-2024-Q4-2891",
+                        "benchmark": "Nov 2024"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "productId": "wheat-lokwan",
+        "imagePath": "/images/commodities/wheat-lokwan-macro.jpg",
+        "categories": [
+            {
+                "name": "Physical Specifications",
+                "specs": [
+                    {
+                        "label": "Moisture Content",
+                        "value": "11.0%",
+                        "benchmark": "Max 12%"
+                    },
+                    {
+                        "label": "Foreign Matter",
+                        "value": "< 1%",
+                        "benchmark": "Max 2%"
+                    },
+                    {
+                        "label": "Damaged Grains",
+                        "value": "< 3%",
+                        "benchmark": "Max 6%"
+                    },
+                    {
+                        "label": "Test Weight",
+                        "value": "78 kg/hl",
+                        "benchmark": "Min 74 kg/hl"
+                    },
+                    {
+                        "label": "Shriveled Grains",
+                        "value": "< 4%",
+                        "benchmark": "Max 6%"
+                    }
+                ]
+            },
+            {
+                "name": "Chemical Analysis",
+                "specs": [
+                    {
+                        "label": "Protein Content",
+                        "value": "12.5%",
+                        "benchmark": "Min 11.5%"
+                    },
+                    {
+                        "label": "Gluten Content",
+                        "value": "26%",
+                        "benchmark": "Min 24%"
+                    },
+                    {
+                        "label": "Ash Content",
+                        "value": "1.6%",
+                        "benchmark": "Max 2%"
+                    },
+                    {
+                        "label": "Wet Gluten",
+                        "value": "28%",
+                        "benchmark": "Min 25%"
+                    }
+                ]
+            },
+            {
+                "name": "Quality Certifications",
+                "specs": [
+                    {
+                        "label": "FSSAI License",
+                        "value": "10023456789014",
+                        "benchmark": "Active"
+                    },
+                    {
+                        "label": "BIS Standard",
+                        "value": "IS 4333:1996",
+                        "benchmark": "Compliant"
+                    },
+                    {
+                        "label": "Grade",
+                        "value": "FAQ Premium",
+                        "benchmark": "Top Grade"
+                    },
+                    {
+                        "label": "Lab Test Batch",
+                        "value": "WH-2024-Q4-3456",
+                        "benchmark": "Nov 2024"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "productId": "soybean-yellow",
+        "imagePath": "/images/commodities/soybean-yellow-macro.jpg",
+        "categories": [
+            {
+                "name": "Physical Specifications",
+                "specs": [
+                    {
+                        "label": "Moisture Content",
+                        "value": "10.0%",
+                        "benchmark": "Max 12%"
+                    },
+                    {
+                        "label": "Admixture",
+                        "value": "< 1%",
+                        "benchmark": "Max 2%"
+                    },
+                    {
+                        "label": "Damaged Seeds",
+                        "value": "< 2%",
+                        "benchmark": "Max 3%"
+                    },
+                    {
+                        "label": "Split Seeds",
+                        "value": "< 10%",
+                        "benchmark": "Max 15%"
+                    },
+                    {
+                        "label": "Foreign Matter",
+                        "value": "< 1%",
+                        "benchmark": "Max 2%"
+                    }
+                ]
+            },
+            {
+                "name": "Chemical Analysis",
+                "specs": [
+                    {
+                        "label": "Oil Content",
+                        "value": "18.0%",
+                        "benchmark": "Min 17%"
+                    },
+                    {
+                        "label": "Protein Content",
+                        "value": "40%",
+                        "benchmark": "Min 38%"
+                    },
+                    {
+                        "label": "Free Fatty Acid",
+                        "value": "< 2%",
+                        "benchmark": "Max 3%"
+                    },
+                    {
+                        "label": "Peroxide Value",
+                        "value": "< 5 meq/kg",
+                        "benchmark": "Max 10 meq/kg"
+                    }
+                ]
+            },
+            {
+                "name": "Quality Certifications",
+                "specs": [
+                    {
+                        "label": "FSSAI License",
+                        "value": "10023456789015",
+                        "benchmark": "Active"
+                    },
+                    {
+                        "label": "Non-GMO",
+                        "value": "Certified",
+                        "benchmark": "Verified"
+                    },
+                    {
+                        "label": "Crushing Grade",
+                        "value": "Premium",
+                        "benchmark": "Top Grade"
+                    },
+                    {
+                        "label": "Lab Test Batch",
+                        "value": "SB-2024-Q4-5678",
+                        "benchmark": "Nov 2024"
+                    }
+                ]
+            }
+        ]
+    }
+]

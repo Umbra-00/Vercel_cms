@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbra — Project Proposal & Services Agreement</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #ffffff;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #3498db;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .project-info {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+        
+        .project-info p {
+            margin: 8px 0;
+            font-size: 1.05em;
+        }
+        
+        .project-info strong {
+            font-weight: 600;
+        }
+        
+        .divider {
+            height: 2px;
+            background: linear-gradient(to right, #3498db, #9b59b6);
+            margin: 40px 0;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #3498db;
+            font-weight: 700;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin: 25px 0 15px 0;
+            font-weight: 600;
+        }
+        
+        .preview-box {
+            background: #f8f9fa;
+            border-left: 4px solid #3498db;
+            padding: 25px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .preview-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .preview-box li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .preview-box li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        
+        .preview-note {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 15px;
+        }
+        
+        .price-highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.2em;
+        }
+        
+        .price-highlight strong {
+            font-size: 1.5em;
+            display: block;
+            margin: 10px 0;
+        }
+        
+        .scope-section {
+            background: #ffffff;
+            border: 1px solid #e0e0e0;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .scope-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .scope-section li {
+            padding: 8px 0 8px 25px;
+            position: relative;
+        }
+        
+        .scope-section li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+        
+        tbody tr:last-child td {
+            border-bottom: none;
+            font-weight: 600;
+            background: #f8f9fa;
+        }
+        
+        .note-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .addon-section {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border-left: 4px solid #9b59b6;
+        }
+        
+        .addon-section h4 {
+            color: #9b59b6;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+        
+        .addon-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .addon-section li {
+            padding: 5px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .addon-price {
+            color: #27ae60;
+            font-weight: 600;
+        }
+        
+        .signature-section {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+        
+        .signature-box {
+            border: 2px solid #e0e0e0;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        
+        .signature-box h3 {
+            margin-top: 0;
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .signature-field {
+            margin: 15px 0;
+        }
+        
+        .signature-field label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #34495e;
+        }
+        
+        .signature-line {
+            border-bottom: 2px solid #2c3e50;
+            height: 40px;
+            margin-top: 30px;
+        }
+        
+        .technical-appendix {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+        
+        .technical-appendix h2 {
+            color: white;
+            border-bottom-color: #3498db;
+        }
+        
+        .technical-appendix h3 {
+            color: #ecf0f1;
+        }
+        
+        .technical-appendix ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .technical-appendix li {
+            padding: 5px 0 5px 25px;
+            position: relative;
+        }
+        
+        .technical-appendix li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                padding: 20px;
+            }
+            .signature-section {
+                page-break-before: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Umbra — Project Proposal & Services Agreement</h1>
+        </div>
+        
+        <div class="project-info">
+            <p><strong>Project:</strong> Premium E-Commerce Website — Umbra Smart Commerce Suite</p>
+            <p><strong>Prepared for:</strong> National Commodity Supply Corporation Of India</p>
+            <p><strong>Prepared by:</strong> Akshar Guha</p>
+            <p><strong>Date:</strong> 30th Oct 2025</p>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>0. Quick preview</h2>
+        <div class="preview-box">
+            <ul>
+                <li>A launch-ready online store that begins selling immediately and reduces time-to-revenue.</li>
+                <li>A premium brand experience that increases trust and conversion.</li>
+                <li>Operational automation that reduces manual effort and lowers recurring costs.</li>
+                <li>Actionable insight and reports so every marketing rupee is measured and optimised.</li>
+                <li>A modular platform that scales with your business and protects your data and customers.</li>
+            </ul>
+            <p class="preview-note">("What it delivers" — see Technical Annex if your IT team needs implementation specifics.)</p>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>1. Executive summary</h2>
+        <p>Umbra will design, develop and deploy a premium e-commerce platform tailored to your business: attractive, secure, conversion-focused, and ready to scale. The solution will be built to manage 10+ pages and a full product catalogue, include advanced UX (animations & interactions), and provide end-to-end commerce flows (product display → cart → checkout → payments → order management).</p>
+        
+        <div class="price-highlight">
+            <p>Base Price</p>
+            <strong>₹1,70,000 INR</strong>
+            <p style="margin-top: 20px;">Start work with</p>
+            <strong>₹20,000 INR (advance)</strong>
+            <p style="font-size: 0.9em; margin-top: 10px;">to start the project (administrator cost).</p>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>2. Project objective</h2>
+        <p>Deliver a high-performing online storefront that:</p>
+        <div class="scope-section">
+            <ul>
+                <li>Converts visitors to buyers through clear user journeys and premium UI.</li>
+                <li>Automates critical operational tasks (orders, catalog management, notifications).</li>
+                <li>Provides visibility into performance (sales, traffic, promotions) so growth is measurable.</li>
+                <li>Gives full administrative control and ownership of the final product.</li>
+            </ul>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>3. Functional scope — Base Package</h2>
+        <p><strong>This base package includes everything required to launch and operate a professional e-commerce store.</strong></p>
+        
+        <div class="scope-section">
+            <h3>Design & User Experience</h3>
+            <ul>
+                <li>Custom branded visual design and responsive layouts for mobile, tablet and desktop.</li>
+                <li>Premium micro-interactions and motion on key pages (product detail, checkout) for trust & polish.</li>
+            </ul>
+        </div>
+        
+        <div class="scope-section">
+            <h3>Commerce & Operations</h3>
+            <ul>
+                <li>Product catalogue with categories, variants, search and filters.</li>
+                <li>Cart, secure checkout and payment gateway connectivity (Razorpay/Stripe/PayPal).</li>
+                <li>Order lifecycle management: orders, status updates, invoices, cancellations, refunds.</li>
+                <li>Customer account area with order history and tracking.</li>
+            </ul>
+        </div>
+        
+        <div class="scope-section">
+            <h3>Admin & Control</h3>
+            <ul>
+                <li>Admin console for products, pricing, orders, customers, coupons and basic reports.</li>
+                <li>Role-based access for admins and staff.</li>
+            </ul>
+        </div>
+        
+        <div class="scope-section">
+            <h3>Security, Performance & Launch</h3>
+            <ul>
+                <li>SSL setup and secure transaction handling.</li>
+                <li>Basic performance optimisation and SEO fundamentals (page speed, meta).</li>
+                <li>QA across browsers and devices and production deployment.</li>
+            </ul>
+        </div>
+        
+        <p><strong>Hosting & Domain:</strong> Client will handle hosting & domain provisioning (Umbra can assist if required — billed separately).</p>
+        <p><strong>Timeline:</strong> 2 months (subject to timely approvals and provision of content/assets).</p>
+        
+        <div class="divider"></div>
+        
+        <h2>4. Payment & milestones</h2>
+        <p>Work starts on receipt of the initial <strong>₹20,000</strong> advance. The full project total is <strong>₹1,70,000</strong> and the balance is payable by milestones:</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Stage</th>
+                    <th>Description</th>
+                    <th>Amount (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Advance (on acceptance)</td>
+                    <td>Project initiation, planning & kickoff</td>
+                    <td><strong>₹20,000</strong></td>
+                </tr>
+                <tr>
+                    <td>Phase 1</td>
+                    <td>UI/UX completion & Front-end prototypes</td>
+                    <td>₹31,000</td>
+                </tr>
+                <tr>
+                    <td>Phase 2</td>
+                    <td>Backend development, product & order flows</td>
+                    <td>₹68,000</td>
+                </tr>
+                <tr>
+                    <td>Phase 3</td>
+                    <td>QA, final optimisations & Production launch</td>
+                    <td>₹51,000</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td></td>
+                    <td><strong>₹1,70,000</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="note-box">
+            <strong>Note:</strong> Phase 1 total = ₹51,000 (₹20,000 advance + ₹31,000 on design approval).
+        </div>
+        
+        <p>Work continues after each payment milestone and Umbra will provide milestone demos and progress reports.</p>
+        
+        <div class="divider"></div>
+        
+        <h2>5. Optional Add-On Modules (Strategic — recommended to grow revenue & efficiency)</h2>
+        <p>Add-Ons are modular and can be purchased with the base or added later. Price ranges are indicative; final quotes provided upon selection.</p>
+        
+        <div class="addon-section">
+            <h4>A. Business Intelligence & Data</h4>
+            <ul>
+                <li><span>Smart Analytics Dashboard (KPIs, trends).</span> <span class="addon-price">₹20k–₹35k</span></li>
+                <li><span>Sales Forecasting (ML-driven).</span> <span class="addon-price">₹25k–₹45k</span></li>
+                <li><span>Data Cleaning & Export Pipelines (CRM/BI sync).</span> <span class="addon-price">₹10k–₹25k</span></li>
+            </ul>
+        </div>
+        
+        <div class="addon-section">
+            <h4>B. Marketing Automation & Personalisation</h4>
+            <ul>
+                <li><span>Email Journey Builder & Campaign Automation.</span> <span class="addon-price">₹10k–₹18k</span></li>
+                <li><span>SMS / WhatsApp Campaign Manager.</span> <span class="addon-price">₹8k–₹15k</span></li>
+                <li><span>Abandoned Cart Recovery.</span> <span class="addon-price">₹8k–₹12k</span></li>
+                <li><span>AI Recommendation Engine (product suggestions).</span> <span class="addon-price">₹25k–₹40k</span></li>
+                <li><span>Loyalty & Rewards Program.</span> <span class="addon-price">₹12k–₹20k</span></li>
+            </ul>
+        </div>
+        
+        <div class="addon-section">
+            <h4>C. Growth & Retention Intelligence</h4>
+            <ul>
+                <li><span>Customer Segmentation & CLV Predictor.</span> <span class="addon-price">₹10k–₹25k</span></li>
+                <li><span>Sentiment Analysis on Reviews.</span> <span class="addon-price">₹15k–₹25k</span></li>
+                <li><span>Ad Retargeting Pixel Setup & Performance Tracker.</span> <span class="addon-price">₹5k–₹20k</span></li>
+            </ul>
+        </div>
+        
+        <div class="addon-section">
+            <h4>D. Integrations & Enterprise</h4>
+            <ul>
+                <li><span>CRM Integration (Zoho/HubSpot/Salesforce).</span> <span class="addon-price">₹15k–₹25k</span></li>
+                <li><span>ERP/Inventory Bridge.</span> <span class="addon-price">₹20k–₹40k</span></li>
+                <li><span>API Gateway for mobile / 3rd-party apps.</span> <span class="addon-price">₹10k–₹20k</span></li>
+                <li><span>Multi-warehouse dispatch logic.</span> <span class="addon-price">₹15k–₹30k</span></li>
+            </ul>
+        </div>
+        
+        <div class="addon-section">
+            <h4>E. Advanced Features</h4>
+            <ul>
+                <li><span>Mobile apps (React Native / Flutter).</span> <span class="addon-price">₹45k–₹70k</span></li>
+                <li><span>Visual/Voice Search, AR/3D Product Viewer.</span> <span class="addon-price">₹20k–₹50k</span></li>
+                <li><span>Multi-vendor marketplace (seller portal).</span> <span class="addon-price">₹35k–₹60k</span></li>
+            </ul>
+        </div>
+        
+        <div class="addon-section">
+            <h4>F. Maintenance & Monitoring</h4>
+            <ul>
+                <li><span>Monthly Maintenance (updates, backups, security).</span> <span class="addon-price">₹5k–₹10k / month</span></li>
+                <li><span>Priority Support & SLA options.</span> <span class="addon-price">₹3k / month</span></li>
+            </ul>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>6. Change requests & additional work</h2>
+        <div class="scope-section">
+            <ul>
+                <li>Minor changes are billed at <strong>₹2,500 / hour</strong>.</li>
+                <li>Significant scope changes will be handled by a formal Change Order with cost and timeline impact; work proceeds only after client approval and payment.</li>
+            </ul>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <h2>8. Intellectual property, warranty & confidentiality</h2>
+        
+        <h3>IP & Deliverables</h3>
+        <ul>
+            <li>Umbra transfers all project deliverables (code, designs, assets) to the client upon <strong>full payment</strong>.</li>
+            <li>Third-party paid services (plugins, fonts, APIs) are billed separately and require client approval.</li>
+        </ul>
+        
+        <h3>Warranty</h3>
+        <ul>
+            <li>30-day warranty after launch covering functional defects and bug fixes (does not include third-party or hosting issues).</li>
+            <li>Umbra is committed to prompt issue resolution under the warranty.</li>
+        </ul>
+        
+        <h3>Confidentiality</h3>
+        <ul>
+            <li>Both parties agree not to disclose proprietary information related to this project without prior written consent.</li>
+        </ul>
+        
+        <div class="divider"></div>
+        
+        <h2>9. Acceptance & next steps</h2>
+        <p>To proceed:</p>
+        <div class="scope-section">
+            <ul>
+                <li>Sign and return this document electronically or reply with your written acceptance.</li>
+                <li>Make the <strong>initial ₹20,000</strong> advance to the account details provided which will be having Domain purchase cost excluding.</li>
+                <li>Share required assets: logos, brand guidelines, product CSV or catalogue, sample content, and a primary point of contact.</li>
+            </ul>
+        </div>
+        
+        <p><strong>Umbra will commence work within 3 business days of receiving the advance and required assets.</strong></p>
+        
+        <div class="divider"></div>
+        
+        <h2>Signatures</h2>
+        
+        <div class="signature-section">
+            <div class="signature-box">
+                <h3>For Umbra</h3>
+                <div class="signature-field">
+                    <label>Name:</label>
+                    <p><strong>Akshar</strong></p>
+                </div>
+                <div class="signature-field">
+                    <label>Title:</label>
+                    <p>Lead Developer & System Architect</p>
+                </div>
+                <div class="signature-field">
+                    <label>Signature:</label>
+                    <div class="signature-line"></div>
+                </div>
+                <div class="signature-field">
+                    <label>Date:</label>
+                    <div class="signature-line"></div>
+                </div>
+            </div>
+            
+            <div class="signature-box">
+                <h3>Client</h3>
+                <div class="signature-field">
+                    <label>Name:</label>
+                    <div class="signature-line"></div>
+                </div>
+                <div class="signature-field">
+                    <label>Title:</label>
+                    <div class="signature-line"></div>
+                </div>
+                <div class="signature-field">
+                    <label>Signature:</label>
+                    <div class="signature-line"></div>
+                </div>
+                <div class="signature-field">
+                    <label>Date:</label>
+                    <div class="signature-line"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="technical-appendix">
+            <h2>Annexure — Technical Appendix (for technical team)</h2>
+            
+            <p>The following details are provided for IT/technical review. These items are implementation options and will be finalised at scoping/technical kick-off.</p>
+            
+            <h3>Architecture & Stack (typical)</h3>
+            <ul>
+                <li>Frontend: React / Next.js — server-side rendering options for SEO.</li>
+                <li>Motion: GSAP / Framer Motion / Lottie for animations.</li>
+                <li>Backend: Node.js (Express) or .NET Core (API-first).</li>
+                <li>Database: PostgreSQL / MongoDB (based on data shape).</li>
+                <li>Hosting: AWS / Azure / Vercel / Client hosting — CDN + autoscaling recommended.</li>
+                <li>Version control: Git (branching & CI pipelines).</li>
+                <li>Authentication: JWT / OAuth2 for APIs; secure password hashing.</li>
+            </ul>
+            
+            <h3>Integrations & Services</h3>
+            <ul>
+                <li>Payments: Razorpay / Stripe / PayPal (sandbox + production).</li>
+                <li>Emails/SMS: SendGrid / AWS SES / Twilio.</li>
+                <li>Analytics: Google Analytics, Google Search Console, Facebook Pixel.</li>
+                <li>Reporting: Power BI / Looker Studio / CSV / scheduled PDF exports.</li>
+            </ul>
+            
+            <h3>Security & Compliance</h3>
+            <ul>
+                <li>SSL/TLS enforced; data encryption in transit & at rest for sensitive fields.</li>
+                <li>OWASP best practices; input validation and parameterized queries.</li>
+                <li>GDPR-readiness and Indian data protection considerations; data retention policy as required.</li>
+            </ul>
+            
+            <h3>Deployment & Operations</h3>
+            <ul>
+                <li>Minimum recommended server: 2 vCPU / 4GB RAM / 50GB SSD for small-to-medium initial load.</li>
+                <li>Backup schedule: daily DB snapshots, weekly full backups.</li>
+                <li>Monitoring: Uptime monitoring, error logging, performance profiling.</li>
+            </ul>
+            
+            <h3>APIs & Extensibility</h3>
+            <ul>
+                <li>REST APIs for product, order, user, and reporting endpoints.</li>
+                <li>Webhooks for payment and external system events.</li>
+                <li>Clear API documentation will be provided at handover.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

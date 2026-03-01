@@ -1,0 +1,98 @@
+[
+  {
+    "id": "sugar-m30",
+    "name": "Sugar M-30",
+    "category": "Sugar",
+    "origin": "Maharashtra, India",
+    "specs": {
+      "Moisture": "0.04%",
+      "Polarization": "99.80%",
+      "Ash Content": "0.04%",
+      "Grain Size": "Medium"
+    },
+    "price": "₹3,450 / Quintal",
+    "stock": "High",
+    "description": "Premium grade M-30 sugar, crystal white, sulfur-free processing suitable for industrial confectionery.",
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "parimal-rice",
+    "name": "Parimal Rice",
+    "category": "Rice",
+    "origin": "Punjab, India",
+    "specs": {
+      "Moisture": "12%",
+      "Broken": "Max 2%",
+      "Purity": "98%",
+      "Crop Year": "2024"
+    },
+    "price": "₹4,200 / Quintal",
+    "stock": "Medium",
+    "description": "Long grain Parimal rice, aged for 12 months for superior cooking characteristics.",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "wheat-lokwan",
+    "name": "Wheat Lokwan",
+    "category": "Wheat",
+    "origin": "Madhya Pradesh, India",
+    "specs": {
+      "Protein": "12.5%",
+      "Gluten": "26%",
+      "Moisture": "11%",
+      "Foreign Matter": "1%"
+    },
+    "price": "₹2,800 / Quintal",
+    "stock": "High",
+    "description": "Golden Lokwan wheat, high protein content, ideal for premium chakki atta.",
+    "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "soybean-oil",
+    "name": "Refined Soybean Oil",
+    "category": "Edible Oils",
+    "origin": "Maharashtra, India",
+    "specs": {
+      "FFA": "0.1% Max",
+      "Color": "Yellow",
+      "Moisture": "0.1%",
+      "Purity": "100%"
+    },
+    "price": "₹12,500 / Quintal",
+    "stock": "High",
+    "description": "Refined soybean oil, rich in Omega-3, suitable for all types of cooking.",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "turmeric-finger",
+    "name": "Turmeric Finger",
+    "category": "Spices",
+    "origin": "Andhra Pradesh, India",
+    "specs": {
+      "Curcumin": "3-4%",
+      "Moisture": "10%",
+      "Bulb": "2%",
+      "Admixture": "1%"
+    },
+    "price": "₹8,500 / Quintal",
+    "stock": "Medium",
+    "description": "High curcumin content turmeric fingers, polished and graded for export quality.",
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "chana-dal",
+    "name": "Chana Dal",
+    "category": "Pulses",
+    "origin": "Rajasthan, India",
+    "specs": {
+      "Moisture": "12%",
+      "Admixture": "1%",
+      "Broken": "2%",
+      "Size": "Bold"
+    },
+    "price": "₹6,200 / Quintal",
+    "stock": "High",
+    "description": "Premium quality Chana Dal, sortex cleaned and unpolished for natural taste.",
+    "image": "https://images.unsplash.com/photo-1585996669323-5931c7994391?q=80&w=800&auto=format&fit=crop"
+  }
+]
