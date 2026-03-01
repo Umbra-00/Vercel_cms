@@ -12,6 +12,9 @@ export default buildConfig({
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || '',
   secret: process.env.PAYLOAD_SECRET || '',
   
+  // Allow cross-origin requests from the static frontend (Hostinger)
+  cors: '*',
+  
   admin: {
     user: 'users',
   },
